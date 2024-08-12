@@ -1,0 +1,14 @@
+{
+  "$schema": "https://dl.viam.dev/module.schema.json",
+  "module_id": "joyce:pms7003",
+  "visibility": "public",
+  "url": "https://github.com/loopDelicious/viam-pms7003-sensor",
+  "description": "Get readings for the pm2.5 particulate air quality sensor.",
+  "models": [
+    {
+      "api": "rdk:component:sensor",
+      "model": "joyce:air:pms7003"
+    }
+  ],
+  "entrypoint": "run.sh"
+}
