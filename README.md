@@ -1,7 +1,10 @@
 # pms7003 air sensor
 
-This module implements the [rdk sensor API](https://github.com/rdk/sensor-api) in a joyce:air:pms7003 model.
-With this model, you can...
+This module implements the [rdk sensor API](https://github.com/rdk/sensor-api) in a `joyce:air:pms7003` model.
+
+With this model, you can manage a PMS-7003 air sensor.
+
+- get readings
 
 ## Requirements
 
