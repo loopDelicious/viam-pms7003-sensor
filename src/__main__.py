@@ -1,9 +1,8 @@
 import asyncio
-import sys
 
 from viam.module.module import Module
 from viam.components.sensor import Sensor
-from .pms7003 import PMS7003
+from .pms7003 import pms7003
 
 async def main():
     """This function creates and starts a new module, after adding all desired resources.
