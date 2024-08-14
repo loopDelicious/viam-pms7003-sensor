@@ -9,3 +9,4 @@ viam-env/
 pyvenv.cfg
 .installed
 module.tar.gz
+.vscode/
