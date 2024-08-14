@@ -16,7 +16,7 @@ import asyncio
 
 LOGGER = getLogger(__name__)
 
-class pms7003(Sensor, Reconfigurable):
+class PMS7003(Sensor, Reconfigurable):
     
     """
     Sensor represents a physical sensing device that can provide measurement readings.
